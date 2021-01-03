@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapay Marketim", "Yapay Marketim\Yapay Marketim.csproj", "{9BFA6330-1D48-4BC2-A9B0-810D5A775B80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BFA6330-1D48-4BC2-A9B0-810D5A775B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFA6330-1D48-4BC2-A9B0-810D5A775B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFA6330-1D48-4BC2-A9B0-810D5A775B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFA6330-1D48-4BC2-A9B0-810D5A775B80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCE5FCC8-F73A-46BA-9DB7-0850961E1D74}
+	EndGlobalSection
+EndGlobal
