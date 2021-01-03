@@ -43,9 +43,9 @@ namespace Yapay_Marketim
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
-            Ayarlar ayar = new Ayarlar();
-            ayar.MdiParent = this;
-            ayar.Show();
+            Ayarlar ay = new Ayarlar();
+            ay.MdiParent = this;
+            ay.Show();
         }
 
         private void toolStripButton5_Click(object sender, EventArgs e)
