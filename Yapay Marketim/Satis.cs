@@ -67,6 +67,7 @@ namespace Yapay_Marketim
             textBox3.Enabled = false;
             textBox4.Enabled = false;
             textBox6.Enabled = false;
+            dateTimePicker1.Value = DateTime.Today;
             try
             {
                 con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Yapay Marketim.mdb");

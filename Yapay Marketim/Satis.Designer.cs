@@ -227,7 +227,7 @@ namespace Yapay_Marketim
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(107, 20);
             this.dateTimePicker1.TabIndex = 65;
-            this.dateTimePicker1.Value = new System.DateTime(2016, 4, 8, 0, 0, 0, 0);
+            this.dateTimePicker1.Value = new System.DateTime(2020, 12, 28, 0, 0, 0, 0);
             // 
             // label9
             // 
