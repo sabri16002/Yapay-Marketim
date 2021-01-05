@@ -135,11 +135,14 @@ namespace Yapay_Marketim
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            textBox6.Clear();
-            fiy = Convert.ToDouble(textBox4.Text);
-            mik = Convert.ToInt32(textBox5.Text);
-            tut = fiy * mik;
-            textBox6.Text = tut.ToString();
+            if (textBox5.Text.Length > 0)
+            {
+                textBox6.Clear();
+                fiy = Convert.ToDouble(textBox4.Text);
+                mik = Convert.ToInt32(textBox5.Text);
+                tut = fiy * mik;
+                textBox6.Text = tut.ToString();
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
