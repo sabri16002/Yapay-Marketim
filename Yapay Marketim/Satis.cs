@@ -149,8 +149,8 @@ namespace Yapay_Marketim
             try
             {
                 komut.Connection = con;
-                komut.CommandText = "insert into Satis (Musteri_no,Ad,Soyad,Urun_no,Urun,Fiyat,Miktar,Tutar,Tarih) values (" +
-              " '" + comboBox1.Text + "','" + textBox1.Text + "','" + textBox2.Text + "','" + comboBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "','" + dateTimePicker1.Value.ToShortDateString() + "')";
+                komut.CommandText = "insert into Satis (Ad,Soyad,Urun_no,Urun,Fiyat,Miktar,Tutar,Tarih) values (" +
+              " '" + textBox1.Text + "','" + textBox2.Text + "','" + comboBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "','" + dateTimePicker1.Value.ToShortDateString() + "')";
                 komut.ExecuteNonQuery();
                 komut.Dispose();
                 MessageBox.Show("Satış Yapıldı", textBox1.Text);
@@ -172,7 +172,7 @@ namespace Yapay_Marketim
                 if (cevap == DialogResult.Yes)
                 {
                     komut.Connection = con;
-                    komut.CommandText = "delete from Satis where Musteri_no=" + dataGridView1.CurrentRow.Cells["Musteri_no"].Value + "";
+                    komut.CommandText = "delete from Satis where Satis_no=" + dataGridView1.CurrentRow.Cells["Satis_no"].Value + "";
                     komut.ExecuteNonQuery();
                     komut.Dispose();
                     sorgu = "select * from Satis";
