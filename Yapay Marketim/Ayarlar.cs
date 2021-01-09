@@ -123,6 +123,31 @@ namespace Yapay_Marketim
             }
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult cevap;
+                cevap = MessageBox.Show("Kayıtı silmek istediğinizden emin misiniz?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (cevap == DialogResult.Yes)
+                {
+                    komut.Connection = con;
+                    komut.CommandText = "delete from Giris where Ad='" + dataGridView1.CurrentRow.Cells["Ad"].Value + "'";
+                    komut.ExecuteNonQuery();
+                    komut.Dispose();
+                    sorgu = "select * from Giris";
+                    MessageBox.Show("Giris Kayıdı Silindi");
+                    listele();
+                }
+            }
+            catch (Exception hata)
+            {
+                MessageBox.Show(hata.Message);
+            }
+            sorgu = "Select *from Giris";
+            listele();
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             sorgu = "Select * from Giris Where Ad like '" + textBox1.Text + "%'";

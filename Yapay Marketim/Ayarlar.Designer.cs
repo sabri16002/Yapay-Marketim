@@ -38,6 +38,7 @@ namespace Yapay_Marketim
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@ namespace Yapay_Marketim
             // 
             this.button3.BackColor = System.Drawing.Color.Crimson;
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(254, 50);
+            this.button3.Location = new System.Drawing.Point(379, 50);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(106, 125);
             this.button3.TabIndex = 18;
@@ -72,7 +73,7 @@ namespace Yapay_Marketim
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Location = new System.Drawing.Point(145, 50);
+            this.button2.Location = new System.Drawing.Point(270, 50);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 125);
             this.button2.TabIndex = 15;
@@ -103,7 +104,7 @@ namespace Yapay_Marketim
             this.dataGridView1.Location = new System.Drawing.Point(0, 181);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(369, 192);
+            this.dataGridView1.Size = new System.Drawing.Size(497, 192);
             this.dataGridView1.TabIndex = 12;
             // 
             // button1
@@ -122,7 +123,7 @@ namespace Yapay_Marketim
             // 
             this.button4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(145, 12);
+            this.button4.Location = new System.Drawing.Point(270, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(212, 32);
             this.button4.TabIndex = 19;
@@ -130,11 +131,24 @@ namespace Yapay_Marketim
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkRed;
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.Location = new System.Drawing.Point(145, 61);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(119, 114);
+            this.button5.TabIndex = 20;
+            this.button5.Text = "Sil";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Ayarlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 373);
+            this.ClientSize = new System.Drawing.Size(497, 373);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
@@ -166,5 +180,6 @@ namespace Yapay_Marketim
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
