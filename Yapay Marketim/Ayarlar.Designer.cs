@@ -123,9 +123,9 @@ namespace Yapay_Marketim
             // 
             this.button4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(270, 12);
+            this.button4.Location = new System.Drawing.Point(145, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(212, 32);
+            this.button4.Size = new System.Drawing.Size(337, 32);
             this.button4.TabIndex = 19;
             this.button4.Text = "Kullanıcıyı Bul";
             this.button4.UseVisualStyleBackColor = false;
@@ -135,9 +135,9 @@ namespace Yapay_Marketim
             // 
             this.button5.BackColor = System.Drawing.Color.DarkRed;
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(145, 61);
+            this.button5.Location = new System.Drawing.Point(145, 50);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(119, 114);
+            this.button5.Size = new System.Drawing.Size(119, 125);
             this.button5.TabIndex = 20;
             this.button5.Text = "Sil";
             this.button5.UseVisualStyleBackColor = false;
