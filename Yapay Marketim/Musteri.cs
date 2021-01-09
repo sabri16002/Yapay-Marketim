@@ -30,10 +30,12 @@ namespace Yapay_Marketim
             textBox1.DataBindings.Clear();
             textBox2.DataBindings.Clear();
             textBox3.DataBindings.Clear();
+            textBox4.DataBindings.Clear();
 
             textBox1.DataBindings.Add("text", bs_Musteri, "Musteri_no");
             textBox2.DataBindings.Add("text", bs_Musteri, "Ad");
             textBox3.DataBindings.Add("text", bs_Musteri, "Soyad");
+            textBox4.DataBindings.Add("text", bs_Musteri, "Tel");
         }
         void listele()
         {
